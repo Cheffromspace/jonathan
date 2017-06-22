@@ -82,7 +82,7 @@ function emika_setup() {
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
-}
+	}
 endif;
 add_action( 'after_setup_theme', 'emika_setup' );
 

@@ -32,7 +32,6 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-
 	<?php
 	if ( is_front_page() && is_home() ) : 
 
@@ -163,7 +162,6 @@
 
 					</div>
 					<?php emika_navigation(); ?>
-
 					<?php
 					$sidebar = Kirki::get_option( 'emika_customizer', 'emika_sidebar_enable' ); 
 
